@@ -1,13 +1,38 @@
 body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    height: 20px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .moves {
     display: flex;
     gap: 10px;
+}
+
+span {
+    font-size: large;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    border-width: 2px;
 }
